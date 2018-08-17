@@ -5,7 +5,7 @@
 
 ### 使用變量
 
-GET {{uri}}/posts/1/comments
+GET {{uri}}/posts/1/comments HTTP/1.1
 
 ### 新增一筆資料
 POST https://jsonplaceholder.typicode.com/posts
