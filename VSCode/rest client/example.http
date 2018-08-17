@@ -1,3 +1,13 @@
+# 定義變量
+@uri=https://jsonplaceholder.typicode.com
+
+# 每個api用###隔開
+
+### 使用變量
+
+GET {{uri}}/posts/1/comments
+
+### 新增一筆資料
 POST https://jsonplaceholder.typicode.com/posts
 Content-Type: application/json
 
@@ -7,7 +17,7 @@ Content-Type: application/json
   "userId": 1
 }
 
-###
+### 取得一筆資料
 
 GET https://jsonplaceholder.typicode.com/posts/1
 
